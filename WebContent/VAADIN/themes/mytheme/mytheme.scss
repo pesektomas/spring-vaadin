@@ -1,0 +1,22 @@
+@import "../valo/valo.scss";
+
+@mixin mytheme {
+  @include valo;
+
+  .text-white{
+  	color: #cccccc;
+  }
+  
+  .background-grey{
+  	background-color: #4b4b4b;
+  	background-image: none;
+  	color: #cccccc;
+  	border-bottom: #4b4b4b;
+  }
+  
+  .text-color-grey{
+  	text-color: #4b4b4b;
+  }
+  
+  
+}
